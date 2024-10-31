@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatPlayerChecker", "FlatPlayerChecker.csproj", "{EE0F58C2-798B-4870-869F-FA7EDE454E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0F58C2-798B-4870-869F-FA7EDE454E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0F58C2-798B-4870-869F-FA7EDE454E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0F58C2-798B-4870-869F-FA7EDE454E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0F58C2-798B-4870-869F-FA7EDE454E55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACB438A4-4386-4643-A5F1-6F499A1E94B0}
+	EndGlobalSection
+EndGlobal
