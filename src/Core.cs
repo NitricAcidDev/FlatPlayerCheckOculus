@@ -1,7 +1,7 @@
 ﻿using MelonLoader;
 using System.Diagnostics;
 
-[assembly: MelonInfo(typeof(FlatPlayerCheck.Core), "FlatPlayerCheckOculus", "1.0.0", "NitricAcidDev", null)]
+[assembly: MelonInfo(typeof(FlatPlayerCheck.Core), "FlatPlayerCheckOculus", "1.0.1", "NitricAcidDev", null)]
 [assembly: MelonGame("Stress Level Zero", "BONELAB")]
 
 namespace FlatPlayerCheck
