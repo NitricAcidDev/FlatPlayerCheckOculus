@@ -1,7 +1,7 @@
 ﻿using MelonLoader;
 using System.Diagnostics;
 
-[assembly: MelonInfo(typeof(FlatPlayerCheck.Core), "FlatPlayerCheck", "1.0.1", "SonofForehead", null)]
+[assembly: MelonInfo(typeof(FlatPlayerCheck.Core), "FlatPlayerCheckOculus", "1.0.0", "NitricAcidDev", null)]
 [assembly: MelonGame("Stress Level Zero", "BONELAB")]
 
 namespace FlatPlayerCheck
@@ -14,16 +14,16 @@ namespace FlatPlayerCheck
         }
         public static void IsVRRunning()
         {
-            Process[] steamVRs = Process.GetProcessesByName("vrserver");
-            if (steamVRs.Length > 0)
+            Process[] DashVR = Process.GetProcessesByName("OculusDash");
+            if (DashVR.Length > 0)
             {
-                MelonLogger.Warning("SteamVR is running, opening in VR...");
+                MelonLogger.Warning("OculusDash is running, opening in VR...");
                 MelonLoader.MelonAssembly.FindMelonInstance<FlatPlayer.FlatBooter>().Unregister("Unregistering FlatPlayer", true);
             }
 
-            if (steamVRs.Length == 0)
+            if (DashVR.Length == 0)
             {
-                MelonLogger.Warning("steamVR isn't running, opening in FlatPlayer...");
+                MelonLogger.Warning("OculusDash isn't running, opening in FlatPlayer...");
             }
         }
     }
