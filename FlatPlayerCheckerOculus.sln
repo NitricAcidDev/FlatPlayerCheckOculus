@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatPlayerChecker", "FlatPlayerChecker.csproj", "{EE0F58C2-798B-4870-869F-FA7EDE454E55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatPlayerCheckerOculus", "FlatPlayerCheckerOculus.csproj", "{EE0F58C2-798B-4870-869F-FA7EDE454E55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
