@@ -1,6 +1,6 @@
 ## Instructions
 
-This is based off of SonOfForehead's FlatPlayerCheck But For Oculus Pc Store Open XR Runtime
+This is based off of SonOfForehead's FlatPlayerCheck (FULL CREDITS TO THEM) But For Oculus Pc Store Open XR Runtime
 
 To open in VR mode, simply have OculusDash open (should happen automatically when loading into link) and it'll automatically open in VR.
 
